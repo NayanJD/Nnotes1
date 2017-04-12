@@ -1,0 +1,38 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 299 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 1169126 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 4097 1 512 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 4097 1 6348 0 -1
+ciMethod java/util/Collection iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/List iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/AbstractList <init> ()V 489 1 141801 0 32
+ciMethod java/util/AbstractCollection <init> ()V 281 1 188409 0 0
+ciMethod java/lang/Math max (II)I 225 1 97393 0 -1
+ciMethod java/util/Collections unmodifiableList (Ljava/util/List;)Ljava/util/List; 4097 1 12428 0 0
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/ArrayList <init> ()V 145 1 114523 0 64
+ciMethod java/util/ArrayList ensureCapacityInternal (I)V 641 1 342199 0 0
+ciMethod java/util/ArrayList ensureExplicitCapacity (I)V 641 1 379761 0 544
+ciMethod java/util/ArrayList grow (I)V 89 1 5175 0 544
+ciMethod java/util/ArrayList hugeCapacity (I)I 0 0 1 0 0
+ciMethod java/util/ArrayList size ()I 1097 1 137 0 0
+ciMethod java/util/ArrayList elementData (I)Ljava/lang/Object; 2081 1 988337 0 0
+ciMethod java/util/ArrayList get (I)Ljava/lang/Object; 2081 1 960135 0 128
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 641 1 335047 0 736
+ciMethod java/util/ArrayList rangeCheck (I)V 2081 1 987783 0 64
+ciMethod java/util/ArrayList iterator ()Ljava/util/Iterator; 2505 1 199795 0 192
+ciMethod java/util/ArrayList access$100 (Ljava/util/ArrayList;)I 1025 1 128 0 0
+ciMethod java/util/Collections$UnmodifiableRandomAccessList <init> (Ljava/util/List;)V 4097 1 12428 0 0
+ciMethod java/util/Collections$UnmodifiableList <init> (Ljava/util/List;)V 4097 1 12428 0 0
+ciMethod java/util/Collections$UnmodifiableCollection <init> (Ljava/util/Collection;)V 4097 1 12814 0 0
+ciMethod java/util/Collections$UnmodifiableCollection iterator ()Ljava/util/Iterator; 18801 1 7726 0 640
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object; 2129 1 10956 0 0
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;ILjava/lang/Class;)[Ljava/lang/Object; 2057 1 8450 0 -1
+ciMethodData java/lang/Object <init> ()V 2 1169128 orig 144 104 11 65 106 0 0 0 0 136 4 248 19 0 0 0 0 168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 65 167 142 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/BitSet wordIndex (I)I 2049 1 86721 0 0
+ciMethod java/util/BitSet checkInvariants ()V 2049 1 8144 0 32
+ciMethod java/util/BitSet get (I)Z 1505 1 5594 0 160
+ciMethodData java/util/ArrayList add (Ljava/lang/Object;)Z 2 336518 orig 144 104 11 65 106 0 0 0 0 208 253 5 20 0 0 0 0 240 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 0 0 0 177 17 41 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 15 0 4 0 1 0 64 0 0 0 255 255 255 255 0 0 0 0 2 0 7 0 0 0 0 0 data 8 0x70002 0x52334 0x1a0104 0x0 0x18400f70 0xbb 0x18401020 0xc oops 2
